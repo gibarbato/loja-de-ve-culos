@@ -97,7 +97,6 @@ server.put('/veiculos/:index', (req, res) => {
         return res.json(veiculos)
     } else {
         return res.json('veículo não já cadastrado')
-
     }
 })
 
